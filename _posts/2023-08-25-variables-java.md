@@ -30,6 +30,34 @@ Las partes de la definición de una variable son:
 * El **operador de asignación** `=`, con este le indicamos al programa que el siguiente dato es el valor que tendrá nuestra variable.
 * El **valor**, en nuestro caso usamos `18`, este valor tiene que ser compatible con el tipo de dato de la variable.
 
-### Tipos de datos más usados
+## Tipos de datos
 
+### Tipos de datos primitivos
+A continuación te mostraré tablas clasificadas por cada tipo de dato primitivo, con su valor de almacenamiento y los valores que puede almacenar:
 
+##### Numéricos enteros
+
+|tipo       |Valor de Almacenamiento |Rango de valores   |
+|:---------:|:----------------------:|:-----------------:|
+|`byte`     |1 byte                  |[`-128`, `127`]        |
+|`short`    |2 bytes                 |[`-32768`, `32767`]  |
+|`int`      |4 bytes                 |[`-2147483648`, `2147483647`]|
+|`long`     |8 bytes                 |[`-9223372036854775808`, `9223372036854775807`]        |
+
+##### Numéricos en punto flotante
+
+Existen dos tipos de datos primitivos que pueden almacenar valores de punto flotante,son los siguientes:
+
+|tipo       |Valor de Almacenamiento |
+|:---------:|:----------------------:|
+|`float`     |32 bits                |
+|`double`    |64 bits                |
+
+EL tipo  `float` se le denomina de **precisión simple**, puede almacenar valores decimales pero de una forma menos precisa que el tipo `double`. Ambos tipos pueden almacenar números muy grandes.
+
+##### Booleanos y caracteres
+
+|tipo       |Valor de Almacenamiento |Valores posibles|
+|:---------:|:----------------------:|:--------------:|
+|`boolean` |16 bits                  |`true` / `false`|
+|`char`    |16 bits                  |**caracteres ASCII**|
